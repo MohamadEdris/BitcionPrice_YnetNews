@@ -64,6 +64,6 @@ Run Ynet image from DockerHub
   docker pull medris2796/ynet
   docker run -d -p 8082:5000 medris2796/ynet:latest
 ```
-<img width="919" alt="image" src="https://user-images.githubusercontent.com/57872327/180656827-beb39b46-b3b9-4d8c-9f39-88885457f50f.png">
+<img width="919" alt="image" src="https://user-images.githubusercontent.com/73100170/180748931-38107f24-c837-4556-b28b-e52f31c2ac93.png">
 
 
