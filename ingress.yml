@@ -1,0 +1,28 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+
+metadata:
+  name: ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  
+    - http:
+        paths:
+          - path: /ynet
+            pathType: Prefix
+            backend:
+              service:
+                name: ynet-service
+                port: 
+                  number: 8082
+    - http:
+        paths:
+          - path: /bitcoin
+            pathType: Prefix
+            backend:
+              service:
+                name: bitcoin-service
+                port:
+                  number: 5000  

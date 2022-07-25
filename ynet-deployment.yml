@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ynet-deployment
+
+  labels:
+    app: ynet
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ynet
+  template:
+    metadata:
+      labels:
+        app: ynet
+    spec:
+      containers:
+      - name: ynet
+        image: medris2796/ynet
+        ports:
+         - containerPort: 8082
+
+---         
+apiVersion: v1
+kind: Service
+metadata:
+  name: ynet-service
+  labels:
+    app: ynet
+spec:
+  ports:
+  - port: 8082
+    targetPort: 8082
+  type: ClusterIP
+  selector:
+    app: ynet
