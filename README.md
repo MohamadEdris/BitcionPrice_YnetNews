@@ -6,12 +6,12 @@
 ● Reads the “Breaking News” from YNet news service.  
   
 
-## ⚡Run With Minikube:
+## Run With Minikube:
 
 Clone the project
 
 ```bash
-  git clone https://github.com/mohamadassi173/YnetNews_bitcoinPrice_kubernetes.git
+  git clone https://github.com/MohamadEdris/BitcionPrice_YnetNews.git
 ```
 
 Go to the project directory
@@ -47,7 +47,7 @@ Access from browser:
 ● http://localhost/bitcoin
 ● http://localhost/ynet  
 
-## ⚡Run the apps with Docker
+## Run the apps with Docker
 
 Run BitCoin image from DockerHub
 
@@ -55,7 +55,7 @@ Run BitCoin image from DockerHub
   docker pull medris2796/bitcoin-final-task
   docker run -d -p 8000:5000 medris2796/bitcoin-final-task:latest
 ```
-<img width="932" alt="image" src="https://user-images.githubusercontent.com/57872327/177643708-e471383c-7a00-4601-9f9b-4986d45e87ad.png">
+<img width="932" alt="image" src="https://user-images.githubusercontent.com/73100170/180748534-912ff6c8-453e-4794-b4d6-d9b3e1c2ff2d.png">
 
   
 Run Ynet image from DockerHub
