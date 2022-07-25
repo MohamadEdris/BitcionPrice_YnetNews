@@ -17,7 +17,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd BitcoinPrice_YnetNews
+  cd BitcionPrice_YnetNews
 ```
 
 Start minikube
@@ -46,6 +46,15 @@ Start minikube tunnel
 Access from browser:  
 ● http://localhost/bitcoin
 ● http://localhost/ynet  
+
+## Services:
+<img width="932" alt="image" src="https://user-images.githubusercontent.com/73100170/180754247-d9286bab-27f1-4fc6-be02-72e409e1c2d9.png">
+
+## Pods:
+<img width="932" alt="image" src="https://user-images.githubusercontent.com/73100170/180754422-4f26250f-59ea-44fa-811f-9f645f99dea0.png">
+
+## Ingress:
+<img width="932" alt="image" src="https://user-images.githubusercontent.com/73100170/180754538-98a5ef4e-c660-40ac-a458-c4839e384327.png">
 
 ## Run the apps with Docker
 
